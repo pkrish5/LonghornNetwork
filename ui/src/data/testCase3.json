@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Jack",
+    "age": 19,
+    "gender": "Male",
+    "year": 1,
+    "major": "History",
+    "gpa": 3.0,
+    "roommatePreferences": ["Kim"],
+    "previousInternships": ["MuseumIntern"]
+  },
+  {
+    "name": "Kim",
+    "age": 19,
+    "gender": "Female",
+    "year": 1,
+    "major": "History",
+    "gpa": 3.2,
+    "roommatePreferences": ["Jack"],
+    "previousInternships": ["MuseumIntern"]
+  },
+  {
+    "name": "Leo",
+    "age": 20,
+    "gender": "Male",
+    "year": 1,
+    "major": "History",
+    "gpa": 3.5,
+    "roommatePreferences": [],
+    "previousInternships": ["None"]
+  }
+]
+

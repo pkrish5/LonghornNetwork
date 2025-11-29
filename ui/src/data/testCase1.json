@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Alice",
+    "age": 20,
+    "gender": "Female",
+    "year": 2,
+    "major": "Computer Science",
+    "gpa": 3.5,
+    "roommatePreferences": ["Bob", "Charlie", "Frank"],
+    "previousInternships": ["Google"]
+  },
+  {
+    "name": "Bob",
+    "age": 21,
+    "gender": "Male",
+    "year": 3,
+    "major": "Computer Science",
+    "gpa": 3.7,
+    "roommatePreferences": ["Alice", "Charlie", "Frank"],
+    "previousInternships": ["Google", "Microsoft"]
+  },
+  {
+    "name": "Charlie",
+    "age": 20,
+    "gender": "Male",
+    "year": 2,
+    "major": "Mathematics",
+    "gpa": 3.2,
+    "roommatePreferences": ["Alice", "Bob", "Frank"],
+    "previousInternships": ["None"]
+  },
+  {
+    "name": "Frank",
+    "age": 23,
+    "gender": "Male",
+    "year": 3,
+    "major": "Chemistry",
+    "gpa": 3.1,
+    "roommatePreferences": ["Alice", "Bob", "Charlie"],
+    "previousInternships": []
+  },
+  {
+    "name": "Dana",
+    "age": 22,
+    "gender": "Female",
+    "year": 4,
+    "major": "Biology",
+    "gpa": 3.8,
+    "roommatePreferences": ["Evan"],
+    "previousInternships": ["Pfizer"]
+  },
+  {
+    "name": "Evan",
+    "age": 22,
+    "gender": "Male",
+    "year": 4,
+    "major": "Biology",
+    "gpa": 3.6,
+    "roommatePreferences": ["Dana"],
+    "previousInternships": ["Moderna", "Pfizer"]
+  }
+]
+

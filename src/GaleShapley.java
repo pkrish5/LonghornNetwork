@@ -1,6 +1,23 @@
 import java.util.*;
-
+/**
+ * Implements the Gale–Shapley stable matching algorithm for roommate assignment.
+ * <p>
+ * Given a list of {@link UniversityStudent}s and their roommate preference
+ * lists, this class computes stable roommate pairings where no two students
+ * would both prefer each other over their assigned roommates.
+ */
 public class GaleShapley {
+    /**
+     * Runs the Gale–Shapley algorithm on the provided list of students and
+     * assigns roommates in place.
+     * <p>
+     * The method uses each student's {@code roommatePreferences} list to drive
+     * proposals and updates the {@code roommate} field in
+     * {@link UniversityStudent}. Students with empty or exhausted preference
+     * lists remain unmatched.
+     *
+     * @param students list of students who should be considered for roommate matching
+     */
 
     public static void assignRoommates(List<UniversityStudent> students) {
         // Map to hold final pairings: each student is paired with a roommate.

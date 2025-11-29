@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Greg",
+    "age": 24,
+    "gender": "Male",
+    "year": 4,
+    "major": "Economics",
+    "gpa": 3.4,
+    "roommatePreferences": ["Helen", "Ivy"],
+    "previousInternships": ["InternshipA"]
+  },
+  {
+    "name": "Helen",
+    "age": 24,
+    "gender": "Female",
+    "year": 4,
+    "major": "Economics",
+    "gpa": 3.5,
+    "roommatePreferences": ["Greg", "Ivy"],
+    "previousInternships": ["InternshipB"]
+  },
+  {
+    "name": "Ivy",
+    "age": 25,
+    "gender": "Female",
+    "year": 4,
+    "major": "Economics",
+    "gpa": 3.8,
+    "roommatePreferences": ["Helen", "Greg"],
+    "previousInternships": ["DummyCompany"]
+  }
+]
+
